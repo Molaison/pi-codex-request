@@ -1,0 +1,16 @@
+{
+  "providers": {
+    "provider-lite": {
+      "api": "openai-responses",
+      "headers": {
+        "X-Pi-Codex-Request-Mode": "lite"
+      }
+    },
+    "provider-official": {
+      "api": "openai-responses",
+      "headers": {
+        "X-Pi-Codex-Request-Mode": "official"
+      }
+    }
+  }
+}
